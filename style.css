@@ -1,0 +1,25 @@
+*{
+    padding: 10px;
+    font-family: 'Segoe UI';
+    --main-color: darkslategray;
+    
+}
+.container{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+p{
+    font-weight: 700;
+  color: var(--main-color);
+}
+label{
+    color: var(--main-color);
+}
+#btn{
+    padding: 7px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: burlywood;
+}
